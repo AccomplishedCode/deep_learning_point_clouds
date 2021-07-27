@@ -5,7 +5,7 @@ Hi! This project is a Pytorch + Open3D implementation of PointNet. Please note t
 ## About the data
 
 The data used here is the Shapenet dataset released by Stanford. The notebook allows you to download data directly too! The link to that project is below: 
-![data link](https://shapenet.org/)
+[data link](https://shapenet.org/)
 
 ## Pretrained Weights
 
@@ -28,6 +28,6 @@ More Results...
 ## Future Work
 
 The goal for this project was to classify points. The next step is to combine it with a tracking algorithm on an Autonomous Vehicle LiDAR dataset like this one here: 
-![nuscenes](https://www.nuscenes.org/nuscenes)
+[nuscenes](https://www.nuscenes.org/nuscenes)
 
 This would enable real time tracking and classification, and will fit into any perception system in any AV. It will also be interesting to attach a microphone and use it to detect nearby objects based on sound, and create a syncing mechanism to combine results from sound with results from LiDAR. 
