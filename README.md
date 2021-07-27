@@ -4,8 +4,8 @@ Hi! This project is a Pytorch + Open3D implementation of PointNet. Please note t
 
 ## About the data
 
-The data used here is the Shapenet dataset released by Stanford. The link for that is below: 
-![data link](https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_segmentation_benchmark_v0.zip)
+The data used here is the Shapenet dataset released by Stanford. The notebook allows you to download data directly too! The link to that project is below: 
+![data link](https://shapenet.org/)
 
 ## Pretrained Weights
 
@@ -13,6 +13,21 @@ The pretrained weights for the trained model are in the cls folder. In the noteb
 
 ## Results
 
-Below are the results for the model presented in this notebook. 
+Below are the results for the model presented in this notebook. The object to be classified is the above, and below is the label prediction! For example, check out the car below, and it's classification. 
 
-![img1]()
+![img1](images/car.png)
+
+More Results...
+
+
+![img2](images/chair.png)
+
+
+![img3](images/table.png)
+
+## Future Work
+
+The goal for this project was to classify points. The next step is to combine it with a tracking algorithm on an Autonomous Vehicle LiDAR dataset like this one here: 
+![nuscenes](https://www.nuscenes.org/nuscenes)
+
+This would enable real time tracking and classification, and will fit into any perception system in any AV. It will also be interesting to attach a microphone and use it to detect nearby objects based on sound, and create a syncing mechanism to combine results from sound with results from LiDAR. 
